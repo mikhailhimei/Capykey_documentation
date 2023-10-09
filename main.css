@@ -1,0 +1,22 @@
+.download_file{
+    border: 2px solid black;
+    padding:10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration:none;
+    background:rgb(4, 163, 202);
+    color: white;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+    height:100vh;
+}
+div > p {
+    text-align: center;
+}
