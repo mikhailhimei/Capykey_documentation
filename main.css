@@ -61,7 +61,7 @@ div > p {
 }
 .main_three_block{
     display: flex;
-    height: 600px;
+    height: 400px;
     background-color: #f0f0f0;
 }
 .main_three{
@@ -71,6 +71,13 @@ div > p {
     background-color: white;
 }
 h1{
+    text-align: center;
+}
+.main_two > h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.main_two > p{
     text-align: center;
 }
 .donate{
@@ -349,9 +356,12 @@ textarea {
 }
 
 
-
+.download{
+    animation-duration: 1.5s;
+    animation-name: slidein2;
+}
 .img {
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-name: slidein;
   }
   
@@ -362,6 +372,17 @@ textarea {
   
     to {
       margin-left: 0%;
+    }
+  
+    
+  }
+  @keyframes slidein2 {
+    from {
+      margin-right: 100%;
+    }
+  
+    to {
+      margin-right: 0%;
     }
   
     
