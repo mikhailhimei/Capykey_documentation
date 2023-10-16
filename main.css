@@ -217,7 +217,13 @@ textarea {
 .container {
   margin: auto;
 }
-
+.img_teleg{
+  width: 50px;
+  height: 50px;
+}
+.a_teleg{
+    margin-left:260px ;
+}
 /* Стили самой формы */
 .content {
   display: flex; /* делаем колонки в ряд */
@@ -321,7 +327,8 @@ textarea {
 
 /* Стили для контейнера кнопки */
 .button {
-  display: inline-block; /* делаем блочно-строчный элемент */
+  display: flex; /* делаем блочно-строчный элемент */
+  align-content: center;
 }
 
 /* Стили для самой кнопки */

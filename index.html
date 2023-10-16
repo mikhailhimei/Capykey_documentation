@@ -14,7 +14,7 @@
   <a href="#default" class="logo">Capykey</a>
   <div class="header-right">
     <a class="active" href="#home">Главная</a>
-    <a href="#contact">Документация</a>
+    <a href="#doc">Документация</a>
     <a href="#contact">Контакты</a>
     <a href="#about">Поддержать</a>
   </div>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="main_two">
-        <h1>Документация</h1>
+        <h1 id="doc">Документация</h1>
         <div class="main_two_block">
         <div class="blog">
             <img src='blog.jpeg' class="img_blog">
@@ -40,7 +40,7 @@
         </div>
     </div>
     <div class="main_three">
-        <h1>Задай вопрос</h1>
+        <h1 id="contact">Задай вопрос</h1>
         <div class="main_three_block">
             <!-- Контейнер выравнивает по ширине и по центру -->
     <div class="container">
@@ -52,7 +52,7 @@
           <div class="right-side">
   
             <!-- Заголовок для формы -->
-            <div class="topic-text">Отправьте нам сообщение</div>
+            <div class="topic-text">Отправьте мне сообщение</div>
   
             <!-- Какой-то дополнительный текст -->
             <p>
@@ -67,13 +67,19 @@
                 <input type="text" placeholder="Ваше имя" />
               </div>
               <div class="input-box">
-                <input type="text" placeholder="Введите email" />
+                <input type="text"  placeholder="Введите email" />
               </div>
               <div class="input-box message-box">
-                <textarea placeholder="Сообщение"></textarea>
+                <textarea name="body" placeholder="Сообщение"></textarea>
               </div>
               <div class="button">
                 <input type="submit" value="Отправить" />
+                <a class="a_teleg" href="https://t.me/apsdQA">
+                    <img class="img_teleg" src="/3488463.png" alt="">
+                </a>
+              </div>
+              <div>
+                
               </div>
             </form>
           </div>
@@ -83,10 +89,10 @@
         </div>
     </div>
     <div class="main_four">
-        <h1>Поддержи проект</h1>
+        <h1 id="about">Поддержи проект</h1>
         <div class="donate">
             <a class="donate_btn" href="https://yoomoney.ru/to/410014424522346">Поддержать на Юмани</a> 
            <a class="donate_btn" href="https://boosty.to/apsdqa/donate">Поддержать на Boosty</a> 
     </div>
-    </div>
+    </div>    
 </body>
