@@ -8,7 +8,6 @@
     text-align: center;
     text-decoration:none;
     color: black;
-    margin-right: 2px;
 }
 .donate_btn{
     border: 2px solid black;
@@ -29,7 +28,7 @@
     
 }
 .download > p{
-    padding: 30px;
+    padding: 38px;
     font-size: 30px;
     width:300px;
 }
@@ -45,10 +44,11 @@ div > p {
 } */
 
 .main_one{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 470px);
     justify-content: center;
     background-color: #f0f0f0;
-    
+    padding: 10px;
 }
 .main_two{
     /* background-color: #f0f0f0; */
@@ -107,11 +107,11 @@ h1{
 body{
     margin: 0 auto;
 }
-.img_block{
+/* .img_block{
     padding: 20px;
     margin-left: 215px;
     
-}
+} */
 .text_blog{
     color: #1f1a1a;
     font-size: 26px;
@@ -124,12 +124,12 @@ body{
 .text_blog > p{
     font-size: 15px;
 }
-.img{
-    background-image: url('/tes.jpg');
+/* .img{
+    background-image: url('/capybara.png');
     background-size: auto;
     width: 485px;
     height: 640px;
-}
+} */
 
 
 
@@ -229,7 +229,7 @@ textarea {
   height: 50px;
 }
 .a_teleg{
-    margin-left:260px ;
+    /* margin-left:260px ; */
 }
 /* Стили самой формы */
 .content {
@@ -367,7 +367,7 @@ textarea {
   
   @keyframes slidein {
     from {
-      margin-left: 100%;
+      margin-left: 120%;
     }
   
     to {
@@ -386,4 +386,12 @@ textarea {
     }
   
     
+  }
+
+  .p_boom{
+    padding-right: 204px !important;
+  }
+
+  .p_download{
+    padding-right: 100px !important;
   }
